@@ -44,13 +44,15 @@
       position: relative;
       top: -10px;
       margin: 0 10px;
-      background: url(https://zqran.gitee.io/images/waimai/cart-1.png);
+      // 这里的图片有问题
+      // background: url(https://zqran.gitee.io/images/waimai/cart-1.png);
       background-size: contain;
       background-repeat: no-repeat;
       flex-shrink: 0;
     }
     .icon.fill {
-      background: url(https://zqran.gitee.io/images/waimai/cart-2.png);
+      // 这个也是获取不到图片
+      // background: url(https://zqran.gitee.io/images/waimai/cart-2.png);
       background-size: contain;
       background-repeat: no-repeat;
     }
@@ -146,7 +148,7 @@
         &::before {
           content: '';
           display: inline-block;
-          background: url(https://zqran.gitee.io/images/waimai/del.png);
+          // background: url(https://zqran.gitee.io/images/waimai/del.png);
           width: 12px;
           height: 12px;
           margin-right: 2.5px;

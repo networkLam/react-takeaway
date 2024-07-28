@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas width="520" height="400" id="cv" style="border: 1px solid red;"></canvas>
+
+    <script>
+        const canvas_E = document.getElementById('cv')
+        const context = canvas_E.getContext('2d');
+        context.beginPath();
+        context.moveTo(100,100);
+        context.lineTo(200,200);
+        context.stroke();
+        context.beginPath();
+        context.moveTo(200,200);
+        context.lineTo(150,300);
+        context.stroke();
+        context.fillStyle = 'bule'
+        context.fill();
+    </script>
+</body>
+</html>
